@@ -1,0 +1,12 @@
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #42b6f5;
+  color: white;
+  font-size: 30px;
+  font-weight:bold;
+}
+
+.form{
+  padding: 60px;
+}

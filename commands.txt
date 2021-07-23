@@ -1,0 +1,4 @@
+Push to Github:
+git add --all && git commit -m "YOUR MESSAGE" && git push
+
+git add --all && git commit -m "Migrated files from Glitch" && git push
