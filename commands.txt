@@ -1,4 +1,7 @@
 Push to Github:
 git add --all && git commit -m "YOUR MESSAGE" && git push
 
-git add --all && git commit -m "Migrated files from Glitch" && git push
+git add --all && git commit -m "Connected app to real-time database" && git push
+
+Start Firebase:
+firebase emulators:start --only hosting

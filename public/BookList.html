@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reading List</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css"/>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script defer src="/__/firebase/8.7.1/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/8.7.1/firebase-database.js"></script>
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+  </head>
+  <body>
+    <section class="hero is-info">
+      <div class="hero-body">
+        <h1 class="title is-large is-size-1">
+          Reading List
+        </h1>
+        <p class="subtitle">
+          All the books you want to read, right here
+        </p>
+      </div>
+    </section>
+
+    <section class="section is-center is-justify-content-center">
+      <h1 class="title">Your Current Reads</h1>
+      <h2 class="subtitle">Filter your books <strong>here</strong></h2>
+
+      <!-- Row -->
+      <div class="container" id="container">
+          
+      </div>
+      <a href="index.html" class="button is-link mt-3">Add More Books</a>
+    </section>
+
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Firebase Reading List</strong>
+        </p>
+        <p>
+          by Freeman Jiang and Lily Gong.
+        </p>
+      </div>
+    </footer>
+    <script src="./js/viewList.js" defer></script>
+  </body>
+</html>
